@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.example.apache.zookeeper</groupId>
+	<artifactId>Apache-ZooKeeper-Example</artifactId>
+	<version>1.0-PROD</version>
+	
+   	<packaging>jar</packaging>
+   	
+	<name>Apache-ZooKeeper-Example</name>
+	<url>https://github.com/rahamath18/Apache-ZooKeeper-Example</url>
+	<description>Apache ZooKeeper Example</description>
+
+	<organization>
+		<name>Personal</name>
+		<url>https://rahamaths.appspot.com/</url>
+	</organization>
+	
+	<developers>
+		<developer>
+			<id>rahamath18</id>
+			<name>Rahamath S</name>
+			<email>rahamath18@yahoo.com</email>
+			<organization>Personal</organization>
+			<roles>
+				<role>Project Lead</role>
+			</roles>
+			<timezone>GMT +5.30</timezone>
+		</developer>
+	</developers>
+	
+	<licenses>
+		<license>
+			<name>Community Project General License</name>
+			<url>https://rahamaths.appspot.com/</url>
+			<comments>
+				Copyright © 2003-2019 rahamaths.appspot.com. All rights reserved.
+				
+				As this is a Community Project General License, 
+				you may use the project or part of the project for your own explore and learnings.
+			</comments>
+		</license>
+	</licenses>
+
+	<properties>
+		<java.version>12</java.version>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+		<dependency>
+    			<groupId>org.apache.zookeeper</groupId>
+    			<artifactId>zookeeper</artifactId>
+    			<version>3.5.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.12.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
